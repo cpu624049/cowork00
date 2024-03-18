@@ -17,12 +17,14 @@ public class BControllerCj4 {
 	BServiceInter bServiceInter;
 	
 	// kang1 comment
+	// kang1 comment2
 
 	@RequestMapping("/delete")
 	public String delete(HttpServletRequest request,
 			Model model) {
 		System.out.println("delete()");
 //		db�� ������ ����
+		
 		//toss
 		model.addAttribute("request",request);
 		bServiceInter=new BDeleteService();
