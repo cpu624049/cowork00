@@ -15,6 +15,7 @@ public class BControllerCj2 {
 	BServiceInter bServiceInter;
 	
 	// cho1 comment
+	// cho1 comment2
 
 	@RequestMapping("/write_view")
 	public String write_view(Model model) {
@@ -28,9 +29,9 @@ public class BControllerCj2 {
 		System.out.println("write()");
 //		�۾��� ����
 ////		toss
-//		model.addAttribute("request",request);
-//		bServiceInter=new BWriteService();
-//		bServiceInter.execute(model);
+		model.addAttribute("request",request);
+		bServiceInter=new BWriteService();
+		bServiceInter.execute(model);
 
 		return "redirect:list";
 	}
