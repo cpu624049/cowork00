@@ -24,7 +24,7 @@ public class BControllerCj2 {
 	@RequestMapping("/write")
 	public String write(HttpServletRequest request, Model model) {
 		System.out.println("write()");
-//		donggil comment
+
 ////		toss
 		model.addAttribute("request",request);
 		bServiceInter=new BWriteService();
