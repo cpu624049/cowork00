@@ -124,3 +124,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Maven Integration for Eclipse
+*.MF
