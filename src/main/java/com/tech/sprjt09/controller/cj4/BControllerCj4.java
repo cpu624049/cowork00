@@ -22,12 +22,12 @@ public class BControllerCj4 {
 	public String delete(HttpServletRequest request,
 			Model model) {
 		System.out.println("delete()");
-////		db�� ������ ����
-//		//toss
-//		model.addAttribute("request",request);
-//		bServiceInter=new BDeleteService();
-//		bServiceInter.execute(model);
-//		
+//		db�� ������ ����
+		//toss
+		model.addAttribute("request",request);
+		bServiceInter=new BDeleteService();
+		bServiceInter.execute(model);
+		
 		return "redirect:list";
 	}
 
