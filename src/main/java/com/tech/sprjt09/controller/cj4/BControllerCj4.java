@@ -24,6 +24,7 @@ public class BControllerCj4 {
 			Model model) {
 		System.out.println("delete()");
 //		db�� ������ ����
+		//코멘트
 		
 		//toss
 		model.addAttribute("request",request);
